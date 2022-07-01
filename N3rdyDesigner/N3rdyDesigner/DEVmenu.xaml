@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="N3rdyDesigner.DEVmenu"
+>
+<ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="#909090">
+                <StackLayout>
+                    <Frame BackgroundColor="#FF8C32" Padding="24">
+                        <Grid>
+                            <ImageButton BackgroundColor="#FF8C32" HorizontalOptions="Start" WidthRequest="40" HeightRequest="5" Source="menu" />
+                            <Label Text="Uni" HorizontalTextAlignment="Center" TextColor="#06113C" FontSize="50"/>
+                            <ImageButton Clicked="user_pfpmenu_Clicked"  x:Name="user_pfpmenu" WidthRequest="60" CornerRadius="50" Aspect="AspectFill" BackgroundColor="#FF8C32" HorizontalOptions="EndAndExpand" />
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+                <Frame BackgroundColor="#b3b3b3">
+                    <StackLayout BackgroundColor="#b3b3b3">
+                        <Label TextColor="White" FontSize="25" HorizontalOptions="Center" Text="Developer Menu"></Label>
+                        <Label TextColor="White" FontSize="20" HorizontalOptions="Center" Text="Cadastro de Usuários:"></Label>
+                        <Label TextColor="White" Text="Usuário:"></Label>
+                        <Entry TextColor="White" x:Name="reg_user"></Entry>
+                        <Label TextColor="White" Text="Senha:"></Label>
+                        <Entry TextColor="White" x:Name="reg_senha"></Entry>
+                        <Label TextColor="White" Text="E-Mail:"></Label>
+                        <Entry TextColor="White" x:Name="reg_email"></Entry>
+                        <Picker TextColor="White" Title="Cargos:" x:Name="reg_cargo">
+                            <Picker.Items>
+                                <x:String>usuario</x:String>
+                                <x:String>admin</x:String>
+                                <x:String>dev</x:String>
+                            </Picker.Items>
+                        </Picker>
+                        <Button BackgroundColor="Black" TextColor="White" Clicked="Button_Clicked" Text="Registrar"></Button>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#b3b3b3" x:Name="searchdad_id" HeightRequest="500">
+                    <StackLayout>
+                        <Label TextColor="White" FontSize="20" Text="Puxar Dados pelo ID" ></Label>
+                        <Label TextColor="White" Text="ID:"></Label>
+                        <Entry x:Name="sea_id" TextColor="White" Placeholder="0" Keyboard="Numeric"></Entry>
+                        <Button x:Name="reg_busca" BackgroundColor="Black" TextColor="White" Clicked="reg_busca_Clicked" Text="Buscar"></Button>
+
+                        <Frame IsVisible="False" x:Name="db_search">
+                            <StackLayout>
+                                <Label TextColor="Black" Text="Informações:"></Label>
+                                <Image x:Name="sea_pfp" WidthRequest="120" HorizontalOptions="Start" Source="sempfp.png"></Image>
+                                <Label x:Name="sea_user" TextColor="Black" Text="Nome: "></Label>
+                                <Label x:Name="sea_email" TextColor="Black" Text="Email: "></Label>
+                                <Label x:Name="sea_pass" TextColor="Black" Text="Senha: "></Label>
+                                <Label x:Name="sea_cargo" TextColor="Black" Text="Cargo: "></Label>
+                                <Label x:Name="sea_saldo" TextColor="Black" Text="Saldo: "></Label>
+                                <Label x:Name="sea_sempfp" TextColor="Black" Text="Sem PFP: "></Label>
+
+                            </StackLayout>
+                        </Frame>
+
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#b3b3b3">
+                    <StackLayout>
+                        <Label TextColor="White" Text="Adicionar Saldo para o Usuário" />
+                        <Entry TextColor="White" x:Name="user_idadd" Keyboard="Numeric" Placeholder="0" />
+                        <Entry TextColor="White" x:Name="user_qntadd" Keyboard="Numeric" Placeholder="R$0,00"></Entry>
+                        <Button BackgroundColor="Black" TextColor="White" x:Name="user_addfinal" Text="Adicionar" Clicked="user_addfinal_Clicked"></Button>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+    
+</ContentPage>

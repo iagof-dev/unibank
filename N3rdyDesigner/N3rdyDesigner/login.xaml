@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="N3rdyDesigner.Loading">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Orientation="Horizontal" BackgroundColor="#FF8C32">
+            <StackLayout Margin="-40, 0, 50, 0" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="500">
+                <StackLayout HorizontalOptions="CenterAndExpand" WidthRequest="500">
+                    <StackLayout HorizontalOptions="Center">
+                        <Image WidthRequest="90" Source="Logo" />
+                        <Label Text="UniBank" HorizontalTextAlignment="Center" TextColor="#06113C" FontSize="50"/>
+                    
+                    <StackLayout>
+                    <Entry WidthRequest="350" HorizontalOptions="Center" x:Name="login_user" Placeholder="Email"></Entry>
+                        <Entry WidthRequest="350" HorizontalOptions="Center" x:Name="senha_user" IsPassword="True" Placeholder="Senha"></Entry>
+                    </StackLayout>
+                    <StackLayout>
+                            <Button WidthRequest="150" x:Name="logar" BackgroundColor="#d66209" HorizontalOptions="Center" TextColor="White" Clicked="logar_Clicked_1" Text="Entrar"></Button>
+                    </StackLayout>
+                    <ActivityIndicator IsRunning="True" x:Name="loading" IsVisible="false" />
+                </StackLayout>
+            </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

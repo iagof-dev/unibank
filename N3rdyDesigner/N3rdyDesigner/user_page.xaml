@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="N3rdyDesigner.user_page">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="#f2f2f2">
+            <Frame BackgroundColor="#FF8C32" Padding="24">
+                <Grid>
+                    <ImageButton BackgroundColor="#FF8C32" HorizontalOptions="Start" WidthRequest="40" HeightRequest="5" Source="menu" />
+                    <Label Text="Uni" HorizontalTextAlignment="Center" TextColor="#06113C" FontSize="50"/>
+                    <ImageButton Clicked="user_pfpmenu_Clicked"  x:Name="user_pfpmenu" WidthRequest="60" CornerRadius="50" Aspect="AspectFill" BackgroundColor="#FF8C32" HorizontalOptions="EndAndExpand" />
+                </Grid>
+            </Frame>
+                <Frame HorizontalOptions="Center" HeightRequest="450" WidthRequest="300" CornerRadius="25">
+
+                    <StackLayout HorizontalOptions="Center">
+
+                        <Label TextColor="Black" Text="Suas Informações" HorizontalOptions="Center" FontSize="25" />
+                        <Image x:Name="user_pfp" WidthRequest="200" Source="https://cdn.discordapp.com/attachments/958777076213772348/991360337792208986/SPOILER_15772e057c945a71c35f2dbdda09fa0f.gif"/>
+                        <Label TextColor="Black"  FontAttributes="Bold" HorizontalOptions="Start" Text="Numero da Conta: "/>
+                        <Label TextColor="Black" HorizontalOptions="Start" x:Name="user_id"/>
+                        <Label TextColor="Black" FontAttributes="Bold" Text="Nome: " />
+                        <Label TextColor="Black" HorizontalOptions="StartAndExpand" x:Name="user_nome"/>
+                        <Label TextColor="Black" FontAttributes="Bold" Text="E-mail: " />
+                        <Label TextColor="Black" HorizontalOptions="StartAndExpand" x:Name="user_email"/>
+                        <Label TextColor="Black" FontAttributes="Bold" Text="Cargo: " />
+                        <Label TextColor="Black" HorizontalOptions="StartAndExpand" x:Name="user_cargo"/>
+
+                </StackLayout>
+            </Frame>
+
+                <Frame HorizontalOptions="Center" HeightRequest="500" WidthRequest="300" CornerRadius="25" >
+
+                    <StackLayout>
+
+                        <Label TextColor="Black" HorizontalOptions="Center" FontSize="25" Text="Alterar Informações" />
+
+                        <Image x:Name="new_pfp" Source="nopfp" WidthRequest="200"/>
+
+                        <Button TextColor="White" BackgroundColor="Black" Text="..." Clicked="Button_Clicked" />
+                        <Button TextColor="White" BackgroundColor="Black" Clicked="user_salvar_Clicked" x:Name="user_salvar" Text="Salvar"/>
+
+
+                </StackLayout>
+                
+                
+            </Frame>
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

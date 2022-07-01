@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="N3rdyDesigner.uni_transfer">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#f2f2f2">
+            <Frame BackgroundColor="#FF8C32" Padding="24" CornerRadius="0">
+                <Grid>
+                    <ImageButton BackgroundColor="#FF8C32" HorizontalOptions="Start" WidthRequest="40" HeightRequest="5" Source="menu" />
+                    <Label Text="Uni" HorizontalTextAlignment="Center" TextColor="#06113C" FontSize="50"/>
+                    <ImageButton x:Name="user_pfpmenu" Clicked="user_pfpmenu_Clicked" WidthRequest="60" CornerRadius="50" Aspect="AspectFill" BackgroundColor="#FF8C32" HorizontalOptions="EndAndExpand" />
+                </Grid>
+            </Frame>
+            <Frame CornerRadius="10" BackgroundColor="#FFFFFF" Margin="10, 20, 10, 10">
+                <StackLayout>
+                    <Button TextColor="Black" x:Name="voltar" Text="Voltar" IsVisible="false"></Button>
+                    <Label TextColor="Black" Text="Transfererencia de dinero"></Label>
+                    <Label TextColor="Black" Text="ID:"></Label>
+                    <Entry BackgroundColor="#FF8C32" TextColor="Black" Placeholder="0" Keyboard="Numeric" x:Name="user_trid"></Entry>
+                    <Label TextColor="Black" Text="Quantidade:"></Label>
+                    <Entry BackgroundColor="#787878" TextColor="Black" x:Name="user_qntd" Placeholder="R$0,00" Keyboard="Numeric"></Entry>
+                    <Button TextColor="White" BackgroundColor="Black" Text="Prosseguir" x:Name="user_transfer" Clicked="user_transfer_Clicked"></Button>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
