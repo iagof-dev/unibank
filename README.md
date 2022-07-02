@@ -1,5 +1,5 @@
 # UniBank
-Xamarin C# e MySql | Projeto de um Trabalho da escola...
+Xamarin Forms, C# e MySql | Projeto de um Trabalho da escola...
 
 ## 📷 Screenshots
 
