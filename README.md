@@ -1,6 +1,8 @@
 # UniBank
 Xamarin Forms, C# e MySql | Projeto de um Trabalho da escola...
 
+Status: Não Finalizado!
+
 ## 📷 Screenshots
 
 ![img](https://cdn.discordapp.com/attachments/889233196091342920/992592184102625360/qemu-system-x86_64_LBUVLU09rL.png)
