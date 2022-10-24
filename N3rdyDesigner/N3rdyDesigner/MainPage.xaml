@@ -57,6 +57,7 @@
 
                         <ScrollView>
                         <StackLayout HeightRequest="700">
+                                <BoxView HeightRequest="1" Color="LightGray"/>
                                 <Grid WidthRequest="1920" Padding="10">
                                     <Label TextColor="Gray" Text="Você pagou Mercado São Bento."></Label>
                                     <Label HorizontalOptions="End"  TextColor="Red" Text="-R$2,99"></Label>

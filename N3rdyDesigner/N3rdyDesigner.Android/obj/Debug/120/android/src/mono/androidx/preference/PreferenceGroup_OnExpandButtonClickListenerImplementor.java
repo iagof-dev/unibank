@@ -20,8 +20,9 @@ public class PreferenceGroup_OnExpandButtonClickListenerImplementor
 	public PreferenceGroup_OnExpandButtonClickListenerImplementor ()
 	{
 		super ();
-		if (getClass () == PreferenceGroup_OnExpandButtonClickListenerImplementor.class)
+		if (getClass () == PreferenceGroup_OnExpandButtonClickListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Preference.PreferenceGroup+IOnExpandButtonClickListenerImplementor, Xamarin.AndroidX.Preference", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

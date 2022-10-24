@@ -20,8 +20,9 @@ public class OnReceiveContentListenerImplementor
 	public OnReceiveContentListenerImplementor ()
 	{
 		super ();
-		if (getClass () == OnReceiveContentListenerImplementor.class)
+		if (getClass () == OnReceiveContentListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Core.View.IOnReceiveContentListenerImplementor, Xamarin.AndroidX.Core", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

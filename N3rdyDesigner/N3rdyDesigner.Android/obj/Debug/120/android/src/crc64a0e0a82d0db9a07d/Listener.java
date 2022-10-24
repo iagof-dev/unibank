@@ -19,16 +19,18 @@ public class Listener
 	public Listener (android.content.Context p0)
 	{
 		super (p0);
-		if (getClass () == Listener.class)
+		if (getClass () == Listener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Essentials.Listener, Xamarin.Essentials", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 
 	public Listener (android.content.Context p0, int p1)
 	{
 		super (p0, p1);
-		if (getClass () == Listener.class)
+		if (getClass () == Listener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Essentials.Listener, Xamarin.Essentials", "Android.Content.Context, Mono.Android:Android.Hardware.SensorDelay, Mono.Android", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 

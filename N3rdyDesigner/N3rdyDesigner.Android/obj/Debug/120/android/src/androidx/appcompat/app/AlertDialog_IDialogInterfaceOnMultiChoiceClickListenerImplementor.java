@@ -20,8 +20,9 @@ public class AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor
 	public AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor ()
 	{
 		super ();
-		if (getClass () == AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor.class)
+		if (getClass () == AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.AppCompat.App.AlertDialog+IDialogInterfaceOnMultiChoiceClickListenerImplementor, Xamarin.AndroidX.AppCompat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

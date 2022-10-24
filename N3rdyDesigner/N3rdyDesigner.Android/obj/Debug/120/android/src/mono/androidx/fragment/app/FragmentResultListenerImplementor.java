@@ -20,8 +20,9 @@ public class FragmentResultListenerImplementor
 	public FragmentResultListenerImplementor ()
 	{
 		super ();
-		if (getClass () == FragmentResultListenerImplementor.class)
+		if (getClass () == FragmentResultListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Fragment.App.IFragmentResultListenerImplementor, Xamarin.AndroidX.Fragment", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

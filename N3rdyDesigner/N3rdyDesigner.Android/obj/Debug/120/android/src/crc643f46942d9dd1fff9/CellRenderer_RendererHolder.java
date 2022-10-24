@@ -18,8 +18,9 @@ public class CellRenderer_RendererHolder
 	public CellRenderer_RendererHolder ()
 	{
 		super ();
-		if (getClass () == CellRenderer_RendererHolder.class)
+		if (getClass () == CellRenderer_RendererHolder.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.CellRenderer+RendererHolder, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	private java.util.ArrayList refList;

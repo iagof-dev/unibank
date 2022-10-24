@@ -20,8 +20,9 @@ public class CarouselViewRenderer_CarouselViewwOnGlobalLayoutListener
 	public CarouselViewRenderer_CarouselViewwOnGlobalLayoutListener ()
 	{
 		super ();
-		if (getClass () == CarouselViewRenderer_CarouselViewwOnGlobalLayoutListener.class)
+		if (getClass () == CarouselViewRenderer_CarouselViewwOnGlobalLayoutListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.CarouselViewRenderer+CarouselViewwOnGlobalLayoutListener, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

@@ -20,8 +20,9 @@ public class TextInputLayout_OnEditTextAttachedListenerImplementor
 	public TextInputLayout_OnEditTextAttachedListenerImplementor ()
 	{
 		super ();
-		if (getClass () == TextInputLayout_OnEditTextAttachedListenerImplementor.class)
+		if (getClass () == TextInputLayout_OnEditTextAttachedListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Google.Android.Material.TextField.TextInputLayout+IOnEditTextAttachedListenerImplementor, Xamarin.Google.Android.Material", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

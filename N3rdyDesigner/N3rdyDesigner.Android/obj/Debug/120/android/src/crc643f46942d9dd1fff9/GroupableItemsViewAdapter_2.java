@@ -21,8 +21,9 @@ public class GroupableItemsViewAdapter_2
 	public GroupableItemsViewAdapter_2 ()
 	{
 		super ();
-		if (getClass () == GroupableItemsViewAdapter_2.class)
+		if (getClass () == GroupableItemsViewAdapter_2.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.GroupableItemsViewAdapter`2, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

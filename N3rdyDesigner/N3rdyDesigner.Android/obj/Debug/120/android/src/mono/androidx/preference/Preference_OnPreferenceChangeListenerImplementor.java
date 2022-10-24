@@ -20,8 +20,9 @@ public class Preference_OnPreferenceChangeListenerImplementor
 	public Preference_OnPreferenceChangeListenerImplementor ()
 	{
 		super ();
-		if (getClass () == Preference_OnPreferenceChangeListenerImplementor.class)
+		if (getClass () == Preference_OnPreferenceChangeListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Preference.Preference+IOnPreferenceChangeListenerImplementor, Xamarin.AndroidX.Preference", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

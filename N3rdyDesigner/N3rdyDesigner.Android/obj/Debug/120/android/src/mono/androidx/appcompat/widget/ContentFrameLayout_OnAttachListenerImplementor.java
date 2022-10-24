@@ -21,8 +21,9 @@ public class ContentFrameLayout_OnAttachListenerImplementor
 	public ContentFrameLayout_OnAttachListenerImplementor ()
 	{
 		super ();
-		if (getClass () == ContentFrameLayout_OnAttachListenerImplementor.class)
+		if (getClass () == ContentFrameLayout_OnAttachListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.AppCompat.Widget.ContentFrameLayout+IOnAttachListenerImplementor, Xamarin.AndroidX.AppCompat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

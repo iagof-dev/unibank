@@ -19,16 +19,18 @@ public class PageExtensions_EmbeddedFragment
 	public PageExtensions_EmbeddedFragment ()
 	{
 		super ();
-		if (getClass () == PageExtensions_EmbeddedFragment.class)
+		if (getClass () == PageExtensions_EmbeddedFragment.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.PageExtensions+EmbeddedFragment, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 
 	public PageExtensions_EmbeddedFragment (int p0)
 	{
 		super (p0);
-		if (getClass () == PageExtensions_EmbeddedFragment.class)
+		if (getClass () == PageExtensions_EmbeddedFragment.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.PageExtensions+EmbeddedFragment, Xamarin.Forms.Platform.Android", "System.Int32, mscorlib", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

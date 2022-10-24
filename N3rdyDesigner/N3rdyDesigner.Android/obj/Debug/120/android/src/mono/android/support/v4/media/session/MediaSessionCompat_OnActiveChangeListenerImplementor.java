@@ -20,8 +20,9 @@ public class MediaSessionCompat_OnActiveChangeListenerImplementor
 	public MediaSessionCompat_OnActiveChangeListenerImplementor ()
 	{
 		super ();
-		if (getClass () == MediaSessionCompat_OnActiveChangeListenerImplementor.class)
+		if (getClass () == MediaSessionCompat_OnActiveChangeListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V4.Media.Session.MediaSessionCompat+IOnActiveChangeListenerImplementor, Xamarin.AndroidX.Media", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

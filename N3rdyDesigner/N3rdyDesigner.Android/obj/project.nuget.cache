@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A37YmfAwYKb2Mb6bsO8P6MPESh4NF6CBfgCirsVHM8jq8PrTMIwHipO6KwXDZd/iTH27TTfHPPgV4c19oaCxug==",
+  "dgSpecHash": "F1H4wOx2rpE8bdOghzHe9xLeRecXV55MjkEzP0gBaOLigzOVxaQhEu+uOAYaHded9yPGDPoey7/zKp6dg5ikxg==",
   "success": true,
-  "projectFilePath": "D:\\projetos\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.Android\\N3rdyDesigner.Android.csproj",
+  "projectFilePath": "C:\\Users\\N3rdy\\Desktop\\unibank-main\\N3rdyDesigner\\N3rdyDesigner.Android\\N3rdyDesigner.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\N3rdy\\.nuget\\packages\\mysqlconnector\\2.1.10\\mysqlconnector.2.1.10.nupkg.sha512",
     "C:\\Users\\N3rdy\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",

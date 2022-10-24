@@ -20,8 +20,9 @@ public class GenericGlobalLayoutListener
 	public GenericGlobalLayoutListener ()
 	{
 		super ();
-		if (getClass () == GenericGlobalLayoutListener.class)
+		if (getClass () == GenericGlobalLayoutListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.GenericGlobalLayoutListener, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

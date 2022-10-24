@@ -19,16 +19,18 @@ public class AccessibilityDelegateAutomationId
 	public AccessibilityDelegateAutomationId ()
 	{
 		super ();
-		if (getClass () == AccessibilityDelegateAutomationId.class)
+		if (getClass () == AccessibilityDelegateAutomationId.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.AccessibilityDelegateAutomationId, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 
 	public AccessibilityDelegateAutomationId (android.view.View.AccessibilityDelegate p0)
 	{
 		super (p0);
-		if (getClass () == AccessibilityDelegateAutomationId.class)
+		if (getClass () == AccessibilityDelegateAutomationId.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.AccessibilityDelegateAutomationId, Xamarin.Forms.Platform.Android", "Android.Views.View+AccessibilityDelegate, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

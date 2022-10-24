@@ -20,8 +20,9 @@ public class BaseOnChangeListenerImplementor
 	public BaseOnChangeListenerImplementor ()
 	{
 		super ();
-		if (getClass () == BaseOnChangeListenerImplementor.class)
+		if (getClass () == BaseOnChangeListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Google.Android.Material.Slider.IBaseOnChangeListenerImplementor, Xamarin.Google.Android.Material", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

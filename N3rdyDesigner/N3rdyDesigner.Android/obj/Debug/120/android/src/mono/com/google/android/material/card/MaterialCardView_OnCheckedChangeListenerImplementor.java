@@ -20,8 +20,9 @@ public class MaterialCardView_OnCheckedChangeListenerImplementor
 	public MaterialCardView_OnCheckedChangeListenerImplementor ()
 	{
 		super ();
-		if (getClass () == MaterialCardView_OnCheckedChangeListenerImplementor.class)
+		if (getClass () == MaterialCardView_OnCheckedChangeListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Google.Android.Material.Card.MaterialCardView+IOnCheckedChangeListenerImplementor, Xamarin.Google.Android.Material", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

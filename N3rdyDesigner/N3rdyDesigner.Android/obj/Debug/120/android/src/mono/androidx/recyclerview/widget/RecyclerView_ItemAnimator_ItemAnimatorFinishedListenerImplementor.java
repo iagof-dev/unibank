@@ -20,8 +20,9 @@ public class RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor
 	public RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor ()
 	{
 		super ();
-		if (getClass () == RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor.class)
+		if (getClass () == RecyclerView_ItemAnimator_ItemAnimatorFinishedListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.RecyclerView.Widget.RecyclerView+ItemAnimator+IItemAnimatorFinishedListenerImplementor, Xamarin.AndroidX.RecyclerView", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

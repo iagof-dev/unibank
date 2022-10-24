@@ -20,8 +20,9 @@ public class WebViewRenderer_JavascriptResult
 	public WebViewRenderer_JavascriptResult ()
 	{
 		super ();
-		if (getClass () == WebViewRenderer_JavascriptResult.class)
+		if (getClass () == WebViewRenderer_JavascriptResult.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.WebViewRenderer+JavascriptResult, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

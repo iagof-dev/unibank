@@ -18,8 +18,9 @@ public class fileProvider
 	public fileProvider ()
 	{
 		super ();
-		if (getClass () == fileProvider.class)
+		if (getClass () == fileProvider.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Essentials.FileProvider, Xamarin.Essentials", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	private java.util.ArrayList refList;

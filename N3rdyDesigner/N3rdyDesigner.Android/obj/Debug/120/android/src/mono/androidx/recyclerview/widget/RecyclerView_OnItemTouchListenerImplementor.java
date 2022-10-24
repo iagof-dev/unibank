@@ -22,8 +22,9 @@ public class RecyclerView_OnItemTouchListenerImplementor
 	public RecyclerView_OnItemTouchListenerImplementor ()
 	{
 		super ();
-		if (getClass () == RecyclerView_OnItemTouchListenerImplementor.class)
+		if (getClass () == RecyclerView_OnItemTouchListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.RecyclerView.Widget.RecyclerView+IOnItemTouchListenerImplementor, Xamarin.AndroidX.RecyclerView", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

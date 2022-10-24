@@ -40,8 +40,9 @@ public class ActivityLifecycleContextListener
 	public ActivityLifecycleContextListener ()
 	{
 		super ();
-		if (getClass () == ActivityLifecycleContextListener.class)
+		if (getClass () == ActivityLifecycleContextListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Essentials.ActivityLifecycleContextListener, Xamarin.Essentials", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

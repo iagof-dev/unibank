@@ -22,15 +22,17 @@ public class FormattedStringExtensions_LineHeightSpan
 	public FormattedStringExtensions_LineHeightSpan ()
 	{
 		super ();
-		if (getClass () == FormattedStringExtensions_LineHeightSpan.class)
+		if (getClass () == FormattedStringExtensions_LineHeightSpan.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.FormattedStringExtensions+LineHeightSpan, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public FormattedStringExtensions_LineHeightSpan (android.widget.TextView p0, double p1)
 	{
 		super ();
-		if (getClass () == FormattedStringExtensions_LineHeightSpan.class)
+		if (getClass () == FormattedStringExtensions_LineHeightSpan.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.FormattedStringExtensions+LineHeightSpan, Xamarin.Forms.Platform.Android", "Android.Widget.TextView, Mono.Android:System.Double, mscorlib", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 

@@ -23,8 +23,9 @@ public class NavigationPageRenderer_DrawerMultiplexedListener
 	public NavigationPageRenderer_DrawerMultiplexedListener ()
 	{
 		super ();
-		if (getClass () == NavigationPageRenderer_DrawerMultiplexedListener.class)
+		if (getClass () == NavigationPageRenderer_DrawerMultiplexedListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.AppCompat.NavigationPageRenderer+DrawerMultiplexedListener, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

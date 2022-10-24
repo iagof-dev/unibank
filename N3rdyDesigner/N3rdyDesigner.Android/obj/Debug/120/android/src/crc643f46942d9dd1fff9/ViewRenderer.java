@@ -18,24 +18,27 @@ public abstract class ViewRenderer
 	public ViewRenderer (android.content.Context p0)
 	{
 		super (p0);
-		if (getClass () == ViewRenderer.class)
+		if (getClass () == ViewRenderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ViewRenderer, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 
 	public ViewRenderer (android.content.Context p0, android.util.AttributeSet p1)
 	{
 		super (p0, p1);
-		if (getClass () == ViewRenderer.class)
+		if (getClass () == ViewRenderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ViewRenderer, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 
 	public ViewRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
 		super (p0, p1, p2);
-		if (getClass () == ViewRenderer.class)
+		if (getClass () == ViewRenderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ViewRenderer, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+		}
 	}
 
 	private java.util.ArrayList refList;

@@ -22,8 +22,9 @@ public class OpenGLViewRenderer_Renderer
 	public OpenGLViewRenderer_Renderer ()
 	{
 		super ();
-		if (getClass () == OpenGLViewRenderer_Renderer.class)
+		if (getClass () == OpenGLViewRenderer_Renderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.OpenGLViewRenderer+Renderer, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

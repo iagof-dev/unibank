@@ -21,15 +21,17 @@ public class SensorListener
 	public SensorListener ()
 	{
 		super ();
-		if (getClass () == SensorListener.class)
+		if (getClass () == SensorListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Essentials.SensorListener, Xamarin.Essentials", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public SensorListener (java.lang.String p0, java.lang.String p1, int p2, boolean p3)
 	{
 		super ();
-		if (getClass () == SensorListener.class)
+		if (getClass () == SensorListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Essentials.SensorListener, Xamarin.Essentials", "System.String, mscorlib:System.String, mscorlib:Android.Hardware.SensorDelay, Mono.Android:System.Boolean, mscorlib", this, new java.lang.Object[] { p0, p1, p2, p3 });
+		}
 	}
 
 

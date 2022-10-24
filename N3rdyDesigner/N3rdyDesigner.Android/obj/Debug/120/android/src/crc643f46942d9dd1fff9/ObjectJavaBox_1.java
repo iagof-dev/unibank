@@ -18,8 +18,9 @@ public class ObjectJavaBox_1
 	public ObjectJavaBox_1 ()
 	{
 		super ();
-		if (getClass () == ObjectJavaBox_1.class)
+		if (getClass () == ObjectJavaBox_1.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ObjectJavaBox`1, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	private java.util.ArrayList refList;

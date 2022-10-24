@@ -21,8 +21,9 @@ public class BarometerListener
 	public BarometerListener ()
 	{
 		super ();
-		if (getClass () == BarometerListener.class)
+		if (getClass () == BarometerListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Essentials.BarometerListener, Xamarin.Essentials", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

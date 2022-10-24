@@ -20,8 +20,9 @@ public class NestedScrollView_OnScrollChangeListenerImplementor
 	public NestedScrollView_OnScrollChangeListenerImplementor ()
 	{
 		super ();
-		if (getClass () == NestedScrollView_OnScrollChangeListenerImplementor.class)
+		if (getClass () == NestedScrollView_OnScrollChangeListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Core.Widget.NestedScrollView+IOnScrollChangeListenerImplementor, Xamarin.AndroidX.Core", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

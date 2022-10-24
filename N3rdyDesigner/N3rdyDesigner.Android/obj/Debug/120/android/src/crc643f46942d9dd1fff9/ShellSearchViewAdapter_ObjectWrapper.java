@@ -19,8 +19,9 @@ public class ShellSearchViewAdapter_ObjectWrapper
 	public ShellSearchViewAdapter_ObjectWrapper ()
 	{
 		super ();
-		if (getClass () == ShellSearchViewAdapter_ObjectWrapper.class)
+		if (getClass () == ShellSearchViewAdapter_ObjectWrapper.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellSearchViewAdapter+ObjectWrapper, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

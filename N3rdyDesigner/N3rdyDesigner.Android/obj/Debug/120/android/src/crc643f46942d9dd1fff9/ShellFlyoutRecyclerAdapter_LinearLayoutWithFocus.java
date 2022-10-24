@@ -19,32 +19,36 @@ public class ShellFlyoutRecyclerAdapter_LinearLayoutWithFocus
 	public ShellFlyoutRecyclerAdapter_LinearLayoutWithFocus (android.content.Context p0)
 	{
 		super (p0);
-		if (getClass () == ShellFlyoutRecyclerAdapter_LinearLayoutWithFocus.class)
+		if (getClass () == ShellFlyoutRecyclerAdapter_LinearLayoutWithFocus.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellFlyoutRecyclerAdapter+LinearLayoutWithFocus, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 
 	public ShellFlyoutRecyclerAdapter_LinearLayoutWithFocus (android.content.Context p0, android.util.AttributeSet p1)
 	{
 		super (p0, p1);
-		if (getClass () == ShellFlyoutRecyclerAdapter_LinearLayoutWithFocus.class)
+		if (getClass () == ShellFlyoutRecyclerAdapter_LinearLayoutWithFocus.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellFlyoutRecyclerAdapter+LinearLayoutWithFocus, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 
 	public ShellFlyoutRecyclerAdapter_LinearLayoutWithFocus (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
 		super (p0, p1, p2);
-		if (getClass () == ShellFlyoutRecyclerAdapter_LinearLayoutWithFocus.class)
+		if (getClass () == ShellFlyoutRecyclerAdapter_LinearLayoutWithFocus.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellFlyoutRecyclerAdapter+LinearLayoutWithFocus, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+		}
 	}
 
 
 	public ShellFlyoutRecyclerAdapter_LinearLayoutWithFocus (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
 	{
 		super (p0, p1, p2, p3);
-		if (getClass () == ShellFlyoutRecyclerAdapter_LinearLayoutWithFocus.class)
+		if (getClass () == ShellFlyoutRecyclerAdapter_LinearLayoutWithFocus.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellFlyoutRecyclerAdapter+LinearLayoutWithFocus, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2, p3 });
+		}
 	}
 
 

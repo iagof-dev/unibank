@@ -18,8 +18,9 @@ public class ImageCache_CacheEntry
 	public ImageCache_CacheEntry ()
 	{
 		super ();
-		if (getClass () == ImageCache_CacheEntry.class)
+		if (getClass () == ImageCache_CacheEntry.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ImageCache+CacheEntry, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	private java.util.ArrayList refList;

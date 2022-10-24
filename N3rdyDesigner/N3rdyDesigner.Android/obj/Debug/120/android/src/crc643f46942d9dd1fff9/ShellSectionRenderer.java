@@ -26,16 +26,18 @@ public class ShellSectionRenderer
 	public ShellSectionRenderer ()
 	{
 		super ();
-		if (getClass () == ShellSectionRenderer.class)
+		if (getClass () == ShellSectionRenderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellSectionRenderer, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 
 	public ShellSectionRenderer (int p0)
 	{
 		super (p0);
-		if (getClass () == ShellSectionRenderer.class)
+		if (getClass () == ShellSectionRenderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellSectionRenderer, Xamarin.Forms.Platform.Android", "System.Int32, mscorlib", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

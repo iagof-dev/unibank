@@ -24,8 +24,9 @@ public class Transition_TransitionListenerImplementor
 	public Transition_TransitionListenerImplementor ()
 	{
 		super ();
-		if (getClass () == Transition_TransitionListenerImplementor.class)
+		if (getClass () == Transition_TransitionListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Transitions.Transition+ITransitionListenerImplementor, Xamarin.AndroidX.Transition", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

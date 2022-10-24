@@ -20,8 +20,9 @@ public class PreferenceManager_OnNavigateToScreenListenerImplementor
 	public PreferenceManager_OnNavigateToScreenListenerImplementor ()
 	{
 		super ();
-		if (getClass () == PreferenceManager_OnNavigateToScreenListenerImplementor.class)
+		if (getClass () == PreferenceManager_OnNavigateToScreenListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Preference.PreferenceManager+IOnNavigateToScreenListenerImplementor, Xamarin.AndroidX.Preference", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

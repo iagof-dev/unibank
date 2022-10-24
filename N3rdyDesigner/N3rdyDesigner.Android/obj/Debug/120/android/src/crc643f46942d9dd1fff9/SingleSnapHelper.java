@@ -20,8 +20,9 @@ public class SingleSnapHelper
 	public SingleSnapHelper ()
 	{
 		super ();
-		if (getClass () == SingleSnapHelper.class)
+		if (getClass () == SingleSnapHelper.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.SingleSnapHelper, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

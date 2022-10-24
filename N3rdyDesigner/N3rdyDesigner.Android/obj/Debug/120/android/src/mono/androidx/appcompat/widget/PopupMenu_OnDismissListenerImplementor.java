@@ -20,8 +20,9 @@ public class PopupMenu_OnDismissListenerImplementor
 	public PopupMenu_OnDismissListenerImplementor ()
 	{
 		super ();
-		if (getClass () == PopupMenu_OnDismissListenerImplementor.class)
+		if (getClass () == PopupMenu_OnDismissListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.AppCompat.Widget.PopupMenu+IOnDismissListenerImplementor, Xamarin.AndroidX.AppCompat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

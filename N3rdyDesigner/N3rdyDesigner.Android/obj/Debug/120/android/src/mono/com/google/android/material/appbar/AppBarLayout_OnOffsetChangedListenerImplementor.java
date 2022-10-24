@@ -20,8 +20,9 @@ public class AppBarLayout_OnOffsetChangedListenerImplementor
 	public AppBarLayout_OnOffsetChangedListenerImplementor ()
 	{
 		super ();
-		if (getClass () == AppBarLayout_OnOffsetChangedListenerImplementor.class)
+		if (getClass () == AppBarLayout_OnOffsetChangedListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Google.Android.Material.AppBar.AppBarLayout+IOnOffsetChangedListenerImplementor, Xamarin.Google.Android.Material", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

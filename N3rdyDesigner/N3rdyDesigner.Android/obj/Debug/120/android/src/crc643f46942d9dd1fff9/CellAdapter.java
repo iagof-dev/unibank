@@ -32,15 +32,17 @@ public abstract class CellAdapter
 	public CellAdapter ()
 	{
 		super ();
-		if (getClass () == CellAdapter.class)
+		if (getClass () == CellAdapter.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.CellAdapter, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public CellAdapter (android.content.Context p0)
 	{
 		super ();
-		if (getClass () == CellAdapter.class)
+		if (getClass () == CellAdapter.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.CellAdapter, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

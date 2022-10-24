@@ -19,15 +19,17 @@ public class NongreedySnapHelper_InitialScrollListener
 	public NongreedySnapHelper_InitialScrollListener ()
 	{
 		super ();
-		if (getClass () == NongreedySnapHelper_InitialScrollListener.class)
+		if (getClass () == NongreedySnapHelper_InitialScrollListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.NongreedySnapHelper+InitialScrollListener, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public NongreedySnapHelper_InitialScrollListener (crc643f46942d9dd1fff9.NongreedySnapHelper p0)
 	{
 		super ();
-		if (getClass () == NongreedySnapHelper_InitialScrollListener.class)
+		if (getClass () == NongreedySnapHelper_InitialScrollListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.NongreedySnapHelper+InitialScrollListener, Xamarin.Forms.Platform.Android", "Xamarin.Forms.Platform.Android.NongreedySnapHelper, Xamarin.Forms.Platform.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

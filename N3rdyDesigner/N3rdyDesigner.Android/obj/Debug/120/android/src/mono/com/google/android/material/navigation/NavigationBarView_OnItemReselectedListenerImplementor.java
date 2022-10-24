@@ -20,8 +20,9 @@ public class NavigationBarView_OnItemReselectedListenerImplementor
 	public NavigationBarView_OnItemReselectedListenerImplementor ()
 	{
 		super ();
-		if (getClass () == NavigationBarView_OnItemReselectedListenerImplementor.class)
+		if (getClass () == NavigationBarView_OnItemReselectedListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Google.Android.Material.Navigation.NavigationBarView+IOnItemReselectedListenerImplementor, Xamarin.Google.Android.Material", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

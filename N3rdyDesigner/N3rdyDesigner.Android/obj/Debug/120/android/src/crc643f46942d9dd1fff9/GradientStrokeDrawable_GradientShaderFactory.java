@@ -19,8 +19,9 @@ public class GradientStrokeDrawable_GradientShaderFactory
 	public GradientStrokeDrawable_GradientShaderFactory ()
 	{
 		super ();
-		if (getClass () == GradientStrokeDrawable_GradientShaderFactory.class)
+		if (getClass () == GradientStrokeDrawable_GradientShaderFactory.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.GradientStrokeDrawable+GradientShaderFactory, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

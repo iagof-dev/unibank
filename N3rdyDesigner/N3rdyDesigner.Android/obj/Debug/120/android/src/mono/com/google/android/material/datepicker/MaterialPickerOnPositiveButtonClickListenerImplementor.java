@@ -20,8 +20,9 @@ public class MaterialPickerOnPositiveButtonClickListenerImplementor
 	public MaterialPickerOnPositiveButtonClickListenerImplementor ()
 	{
 		super ();
-		if (getClass () == MaterialPickerOnPositiveButtonClickListenerImplementor.class)
+		if (getClass () == MaterialPickerOnPositiveButtonClickListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Google.Android.Material.DatePicker.IMaterialPickerOnPositiveButtonClickListenerImplementor, Xamarin.Google.Android.Material", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

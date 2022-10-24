@@ -24,8 +24,9 @@ public class DataChangeObserver
 	public DataChangeObserver ()
 	{
 		super ();
-		if (getClass () == DataChangeObserver.class)
+		if (getClass () == DataChangeObserver.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.DataChangeObserver, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

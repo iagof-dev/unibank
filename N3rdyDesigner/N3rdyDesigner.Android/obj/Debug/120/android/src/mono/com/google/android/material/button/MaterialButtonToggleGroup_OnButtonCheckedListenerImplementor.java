@@ -20,8 +20,9 @@ public class MaterialButtonToggleGroup_OnButtonCheckedListenerImplementor
 	public MaterialButtonToggleGroup_OnButtonCheckedListenerImplementor ()
 	{
 		super ();
-		if (getClass () == MaterialButtonToggleGroup_OnButtonCheckedListenerImplementor.class)
+		if (getClass () == MaterialButtonToggleGroup_OnButtonCheckedListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Google.Android.Material.Button.MaterialButtonToggleGroup+IOnButtonCheckedListenerImplementor, Xamarin.Google.Android.Material", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

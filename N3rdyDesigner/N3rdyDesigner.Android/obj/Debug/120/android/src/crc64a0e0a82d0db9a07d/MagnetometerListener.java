@@ -21,8 +21,9 @@ public class MagnetometerListener
 	public MagnetometerListener ()
 	{
 		super ();
-		if (getClass () == MagnetometerListener.class)
+		if (getClass () == MagnetometerListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Essentials.MagnetometerListener, Xamarin.Essentials", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

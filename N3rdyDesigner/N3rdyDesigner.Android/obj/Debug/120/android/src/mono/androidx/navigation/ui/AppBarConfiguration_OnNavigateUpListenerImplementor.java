@@ -20,8 +20,9 @@ public class AppBarConfiguration_OnNavigateUpListenerImplementor
 	public AppBarConfiguration_OnNavigateUpListenerImplementor ()
 	{
 		super ();
-		if (getClass () == AppBarConfiguration_OnNavigateUpListenerImplementor.class)
+		if (getClass () == AppBarConfiguration_OnNavigateUpListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Navigation.UI.AppBarConfiguration+IOnNavigateUpListenerImplementor, Xamarin.AndroidX.Navigation.UI", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

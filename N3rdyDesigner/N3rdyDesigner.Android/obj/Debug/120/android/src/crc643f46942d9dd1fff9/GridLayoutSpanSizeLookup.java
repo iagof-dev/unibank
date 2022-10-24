@@ -19,8 +19,9 @@ public class GridLayoutSpanSizeLookup
 	public GridLayoutSpanSizeLookup ()
 	{
 		super ();
-		if (getClass () == GridLayoutSpanSizeLookup.class)
+		if (getClass () == GridLayoutSpanSizeLookup.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.GridLayoutSpanSizeLookup, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

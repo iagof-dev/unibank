@@ -23,8 +23,9 @@ public class EmptyViewAdapter
 	public EmptyViewAdapter ()
 	{
 		super ();
-		if (getClass () == EmptyViewAdapter.class)
+		if (getClass () == EmptyViewAdapter.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.EmptyViewAdapter, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

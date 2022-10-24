@@ -19,8 +19,9 @@ public class CarouselSpacingItemDecoration
 	public CarouselSpacingItemDecoration ()
 	{
 		super ();
-		if (getClass () == CarouselSpacingItemDecoration.class)
+		if (getClass () == CarouselSpacingItemDecoration.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.CarouselSpacingItemDecoration, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

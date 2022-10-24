@@ -18,8 +18,9 @@ public class AndroidActivity
 	public AndroidActivity ()
 	{
 		super ();
-		if (getClass () == AndroidActivity.class)
+		if (getClass () == AndroidActivity.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.AndroidActivity, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	private java.util.ArrayList refList;

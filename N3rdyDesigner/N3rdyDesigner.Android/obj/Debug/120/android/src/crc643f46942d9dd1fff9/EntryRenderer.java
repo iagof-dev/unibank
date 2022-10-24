@@ -18,24 +18,27 @@ public class EntryRenderer
 	public EntryRenderer (android.content.Context p0)
 	{
 		super (p0);
-		if (getClass () == EntryRenderer.class)
+		if (getClass () == EntryRenderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.EntryRenderer, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 
 	public EntryRenderer (android.content.Context p0, android.util.AttributeSet p1)
 	{
 		super (p0, p1);
-		if (getClass () == EntryRenderer.class)
+		if (getClass () == EntryRenderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.EntryRenderer, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 
 	public EntryRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
 		super (p0, p1, p2);
-		if (getClass () == EntryRenderer.class)
+		if (getClass () == EntryRenderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.EntryRenderer, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+		}
 	}
 
 	private java.util.ArrayList refList;

@@ -21,8 +21,9 @@ public class ShapeAppearancePathProvider_PathListenerImplementor
 	public ShapeAppearancePathProvider_PathListenerImplementor ()
 	{
 		super ();
-		if (getClass () == ShapeAppearancePathProvider_PathListenerImplementor.class)
+		if (getClass () == ShapeAppearancePathProvider_PathListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Google.Android.Material.Shape.ShapeAppearancePathProvider+IPathListenerImplementor, Xamarin.Google.Android.Material", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

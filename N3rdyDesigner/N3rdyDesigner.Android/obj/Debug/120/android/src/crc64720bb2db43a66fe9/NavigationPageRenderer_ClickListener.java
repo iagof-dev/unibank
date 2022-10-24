@@ -20,8 +20,9 @@ public class NavigationPageRenderer_ClickListener
 	public NavigationPageRenderer_ClickListener ()
 	{
 		super ();
-		if (getClass () == NavigationPageRenderer_ClickListener.class)
+		if (getClass () == NavigationPageRenderer_ClickListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.AppCompat.NavigationPageRenderer+ClickListener, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

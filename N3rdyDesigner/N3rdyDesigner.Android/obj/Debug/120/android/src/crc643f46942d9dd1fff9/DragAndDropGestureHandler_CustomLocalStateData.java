@@ -18,8 +18,9 @@ public class DragAndDropGestureHandler_CustomLocalStateData
 	public DragAndDropGestureHandler_CustomLocalStateData ()
 	{
 		super ();
-		if (getClass () == DragAndDropGestureHandler_CustomLocalStateData.class)
+		if (getClass () == DragAndDropGestureHandler_CustomLocalStateData.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.DragAndDropGestureHandler+CustomLocalStateData, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	private java.util.ArrayList refList;

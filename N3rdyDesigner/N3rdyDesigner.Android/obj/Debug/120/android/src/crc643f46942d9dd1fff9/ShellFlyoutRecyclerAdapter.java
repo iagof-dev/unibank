@@ -23,8 +23,9 @@ public class ShellFlyoutRecyclerAdapter
 	public ShellFlyoutRecyclerAdapter ()
 	{
 		super ();
-		if (getClass () == ShellFlyoutRecyclerAdapter.class)
+		if (getClass () == ShellFlyoutRecyclerAdapter.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellFlyoutRecyclerAdapter, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

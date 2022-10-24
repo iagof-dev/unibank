@@ -14,11 +14,11 @@
             <Frame CornerRadius="10" BackgroundColor="#FFFFFF" Margin="10, 20, 10, 10">
                 <StackLayout>
                     <Button TextColor="Black" x:Name="voltar" Text="Voltar" IsVisible="false"></Button>
-                    <Label TextColor="Black" Text="Transfererencia de dinero"></Label>
+                    <Label TextColor="Black" Text="Transferência de dinheiro"></Label>
                     <Label TextColor="Black" Text="ID:"></Label>
-                    <Entry BackgroundColor="#FF8C32" TextColor="Black" Placeholder="0" Keyboard="Numeric" x:Name="user_trid"></Entry>
-                    <Label TextColor="Black" Text="Quantidade:"></Label>
-                    <Entry BackgroundColor="#787878" TextColor="Black" x:Name="user_qntd" Placeholder="R$0,00" Keyboard="Numeric"></Entry>
+                    <Entry TextColor="Black" Placeholder="0" Keyboard="Numeric" x:Name="user_trid"></Entry>
+                    <Label TextColor="Black" Text="Quantidade (Exemplo: R$1.99):"></Label>
+                    <Entry TextColor="Black" x:Name="user_qntd" Placeholder="R$0,00" Keyboard="Numeric"></Entry>
                     <Button TextColor="White" BackgroundColor="Black" Text="Prosseguir" x:Name="user_transfer" Clicked="user_transfer_Clicked"></Button>
                 </StackLayout>
             </Frame>

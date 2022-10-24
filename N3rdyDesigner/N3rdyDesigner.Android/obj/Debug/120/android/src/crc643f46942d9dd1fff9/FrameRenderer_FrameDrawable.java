@@ -24,8 +24,9 @@ public class FrameRenderer_FrameDrawable
 	public FrameRenderer_FrameDrawable ()
 	{
 		super ();
-		if (getClass () == FrameRenderer_FrameDrawable.class)
+		if (getClass () == FrameRenderer_FrameDrawable.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.FrameRenderer+FrameDrawable, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

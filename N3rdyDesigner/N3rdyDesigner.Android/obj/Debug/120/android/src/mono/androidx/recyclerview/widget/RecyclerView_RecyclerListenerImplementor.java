@@ -20,8 +20,9 @@ public class RecyclerView_RecyclerListenerImplementor
 	public RecyclerView_RecyclerListenerImplementor ()
 	{
 		super ();
-		if (getClass () == RecyclerView_RecyclerListenerImplementor.class)
+		if (getClass () == RecyclerView_RecyclerListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.RecyclerView.Widget.RecyclerView+IRecyclerListenerImplementor, Xamarin.AndroidX.RecyclerView", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

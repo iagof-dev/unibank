@@ -22,16 +22,18 @@ public class ListViewRenderer_SwipeRefreshLayoutWithFixedNestedScrolling
 	public ListViewRenderer_SwipeRefreshLayoutWithFixedNestedScrolling (android.content.Context p0)
 	{
 		super (p0);
-		if (getClass () == ListViewRenderer_SwipeRefreshLayoutWithFixedNestedScrolling.class)
+		if (getClass () == ListViewRenderer_SwipeRefreshLayoutWithFixedNestedScrolling.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ListViewRenderer+SwipeRefreshLayoutWithFixedNestedScrolling, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 
 	public ListViewRenderer_SwipeRefreshLayoutWithFixedNestedScrolling (android.content.Context p0, android.util.AttributeSet p1)
 	{
 		super (p0, p1);
-		if (getClass () == ListViewRenderer_SwipeRefreshLayoutWithFixedNestedScrolling.class)
+		if (getClass () == ListViewRenderer_SwipeRefreshLayoutWithFixedNestedScrolling.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ListViewRenderer+SwipeRefreshLayoutWithFixedNestedScrolling, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 

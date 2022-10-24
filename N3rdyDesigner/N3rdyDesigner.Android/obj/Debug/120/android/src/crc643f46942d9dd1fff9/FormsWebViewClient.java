@@ -24,15 +24,17 @@ public class FormsWebViewClient
 	public FormsWebViewClient ()
 	{
 		super ();
-		if (getClass () == FormsWebViewClient.class)
+		if (getClass () == FormsWebViewClient.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.FormsWebViewClient, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public FormsWebViewClient (crc643f46942d9dd1fff9.WebViewRenderer p0)
 	{
 		super ();
-		if (getClass () == FormsWebViewClient.class)
+		if (getClass () == FormsWebViewClient.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.FormsWebViewClient, Xamarin.Forms.Platform.Android", "Xamarin.Forms.Platform.Android.WebViewRenderer, Xamarin.Forms.Platform.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

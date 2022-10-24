@@ -20,8 +20,9 @@ public class WindowInsetsControllerCompat_OnControllableInsetsChangedListenerImp
 	public WindowInsetsControllerCompat_OnControllableInsetsChangedListenerImplementor ()
 	{
 		super ();
-		if (getClass () == WindowInsetsControllerCompat_OnControllableInsetsChangedListenerImplementor.class)
+		if (getClass () == WindowInsetsControllerCompat_OnControllableInsetsChangedListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Core.View.WindowInsetsControllerCompat+IOnControllableInsetsChangedListenerImplementor, Xamarin.AndroidX.Core", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

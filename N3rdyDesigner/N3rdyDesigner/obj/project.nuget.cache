@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0/0BxYvT3mOUt6QhXkgmUAkrHd1NEI/gM37dC2mflms9cozp2Eih/h7aFMeLTcbU0YUkq7N6mMweoWfwZiM/pQ==",
+  "dgSpecHash": "DzFNVci+uHJr1GaWPAXMmeVGe7acpO25MY318k5eZnz+RU5iY/Vf5Y9ACJ9EHX1t1EdfC6s3rRF4bpJkwzpVVQ==",
   "success": true,
-  "projectFilePath": "D:\\projetos\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.csproj",
+  "projectFilePath": "C:\\Users\\N3rdy\\Desktop\\unibank-main\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\N3rdy\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\N3rdy\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

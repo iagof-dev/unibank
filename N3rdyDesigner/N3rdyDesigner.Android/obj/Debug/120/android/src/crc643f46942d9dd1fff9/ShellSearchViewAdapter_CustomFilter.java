@@ -20,15 +20,17 @@ public class ShellSearchViewAdapter_CustomFilter
 	public ShellSearchViewAdapter_CustomFilter ()
 	{
 		super ();
-		if (getClass () == ShellSearchViewAdapter_CustomFilter.class)
+		if (getClass () == ShellSearchViewAdapter_CustomFilter.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellSearchViewAdapter+CustomFilter, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public ShellSearchViewAdapter_CustomFilter (android.widget.BaseAdapter p0)
 	{
 		super ();
-		if (getClass () == ShellSearchViewAdapter_CustomFilter.class)
+		if (getClass () == ShellSearchViewAdapter_CustomFilter.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellSearchViewAdapter+CustomFilter, Xamarin.Forms.Platform.Android", "Android.Widget.BaseAdapter, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

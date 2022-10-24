@@ -21,8 +21,9 @@ public class SearchView_OnSuggestionListenerImplementor
 	public SearchView_OnSuggestionListenerImplementor ()
 	{
 		super ();
-		if (getClass () == SearchView_OnSuggestionListenerImplementor.class)
+		if (getClass () == SearchView_OnSuggestionListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.AppCompat.Widget.SearchView+IOnSuggestionListenerImplementor, Xamarin.AndroidX.AppCompat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

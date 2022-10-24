@@ -19,8 +19,9 @@ public abstract class WebAuthenticatorCallbackActivity
 	public WebAuthenticatorCallbackActivity ()
 	{
 		super ();
-		if (getClass () == WebAuthenticatorCallbackActivity.class)
+		if (getClass () == WebAuthenticatorCallbackActivity.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Essentials.WebAuthenticatorCallbackActivity, Xamarin.Essentials", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

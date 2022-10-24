@@ -25,8 +25,9 @@ public class ViewCellRenderer_ViewCellContainer_LongPressGestureListener
 	public ViewCellRenderer_ViewCellContainer_LongPressGestureListener ()
 	{
 		super ();
-		if (getClass () == ViewCellRenderer_ViewCellContainer_LongPressGestureListener.class)
+		if (getClass () == ViewCellRenderer_ViewCellContainer_LongPressGestureListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ViewCellRenderer+ViewCellContainer+LongPressGestureListener, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

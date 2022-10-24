@@ -20,8 +20,9 @@ public class Snackbar_SnackbarActionClickImplementor
 	public Snackbar_SnackbarActionClickImplementor ()
 	{
 		super ();
-		if (getClass () == Snackbar_SnackbarActionClickImplementor.class)
+		if (getClass () == Snackbar_SnackbarActionClickImplementor.class) {
 			mono.android.TypeManager.Activate ("Google.Android.Material.Snackbar.Snackbar+SnackbarActionClickImplementor, Xamarin.Google.Android.Material", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

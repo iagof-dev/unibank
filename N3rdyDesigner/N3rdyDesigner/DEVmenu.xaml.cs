@@ -14,13 +14,14 @@ namespace N3rdyDesigner
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DEVmenu : ContentPage
     {
-        string db_dados = "server=" + Properties.Resources.db_server 
-            + ";uid=" + Properties.Resources.db_user + ";" + "pwd=" + Properties.Resources.db_pass + ";database=" + 
-            Properties.Resources.db_name;
 
-        string db_table = Properties.Resources.db_tabela;
+        public static string db_server = db.db_server;
+        public static string db_user = db.db_user;
+        public static string db_pass = db.db_pass;
+        public static string db_table = db.db_table;
+        public static string db_database = db.db_database;
 
-        string db_database = Properties.Resources.db_name;
+        public static string db_dados = "server=" + db_server + ";uid=" + db_user + ";" + "pwd=" + db_pass + ";database=" + db_database;
 
 
 

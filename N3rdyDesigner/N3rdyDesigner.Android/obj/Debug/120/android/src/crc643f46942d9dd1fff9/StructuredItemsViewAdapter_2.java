@@ -21,8 +21,9 @@ public class StructuredItemsViewAdapter_2
 	public StructuredItemsViewAdapter_2 ()
 	{
 		super ();
-		if (getClass () == StructuredItemsViewAdapter_2.class)
+		if (getClass () == StructuredItemsViewAdapter_2.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.StructuredItemsViewAdapter`2, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

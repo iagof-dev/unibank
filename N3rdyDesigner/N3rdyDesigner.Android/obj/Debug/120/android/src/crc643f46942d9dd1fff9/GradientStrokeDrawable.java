@@ -19,16 +19,18 @@ public class GradientStrokeDrawable
 	public GradientStrokeDrawable ()
 	{
 		super ();
-		if (getClass () == GradientStrokeDrawable.class)
+		if (getClass () == GradientStrokeDrawable.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.GradientStrokeDrawable, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 
 	public GradientStrokeDrawable (int p0)
 	{
 		super (p0);
-		if (getClass () == GradientStrokeDrawable.class)
+		if (getClass () == GradientStrokeDrawable.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.GradientStrokeDrawable, Xamarin.Forms.Platform.Android", "Android.Graphics.Color, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

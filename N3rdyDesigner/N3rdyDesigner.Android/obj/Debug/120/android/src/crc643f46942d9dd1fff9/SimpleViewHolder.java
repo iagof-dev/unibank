@@ -18,8 +18,9 @@ public class SimpleViewHolder
 	public SimpleViewHolder (android.view.View p0)
 	{
 		super (p0);
-		if (getClass () == SimpleViewHolder.class)
+		if (getClass () == SimpleViewHolder.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.SimpleViewHolder, Xamarin.Forms.Platform.Android", "Android.Views.View, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 	private java.util.ArrayList refList;

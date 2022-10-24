@@ -20,8 +20,9 @@ public class AsyncListDiffer_ListListenerImplementor
 	public AsyncListDiffer_ListListenerImplementor ()
 	{
 		super ();
-		if (getClass () == AsyncListDiffer_ListListenerImplementor.class)
+		if (getClass () == AsyncListDiffer_ListListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.RecyclerView.Widget.AsyncListDiffer+IListListenerImplementor, Xamarin.AndroidX.RecyclerView", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

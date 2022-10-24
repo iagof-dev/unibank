@@ -27,15 +27,17 @@ public class ListViewAdapter
 	public ListViewAdapter ()
 	{
 		super ();
-		if (getClass () == ListViewAdapter.class)
+		if (getClass () == ListViewAdapter.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ListViewAdapter, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public ListViewAdapter (android.content.Context p0)
 	{
 		super ();
-		if (getClass () == ListViewAdapter.class)
+		if (getClass () == ListViewAdapter.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ListViewAdapter, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

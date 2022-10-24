@@ -22,15 +22,17 @@ public class GroupedListViewAdapter
 	public GroupedListViewAdapter ()
 	{
 		super ();
-		if (getClass () == GroupedListViewAdapter.class)
+		if (getClass () == GroupedListViewAdapter.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.GroupedListViewAdapter, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public GroupedListViewAdapter (android.content.Context p0)
 	{
 		super ();
-		if (getClass () == GroupedListViewAdapter.class)
+		if (getClass () == GroupedListViewAdapter.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.GroupedListViewAdapter, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

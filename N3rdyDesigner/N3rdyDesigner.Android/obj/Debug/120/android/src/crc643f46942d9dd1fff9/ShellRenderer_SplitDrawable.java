@@ -22,8 +22,9 @@ public class ShellRenderer_SplitDrawable
 	public ShellRenderer_SplitDrawable ()
 	{
 		super ();
-		if (getClass () == ShellRenderer_SplitDrawable.class)
+		if (getClass () == ShellRenderer_SplitDrawable.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellRenderer+SplitDrawable, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

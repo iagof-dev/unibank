@@ -19,8 +19,9 @@ public class ConnectivityBroadcastReceiver
 	public ConnectivityBroadcastReceiver ()
 	{
 		super ();
-		if (getClass () == ConnectivityBroadcastReceiver.class)
+		if (getClass () == ConnectivityBroadcastReceiver.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Essentials.ConnectivityBroadcastReceiver, Xamarin.Essentials", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

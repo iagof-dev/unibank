@@ -18,8 +18,9 @@ public class TemplatedItemViewHolder
 	public TemplatedItemViewHolder (android.view.View p0)
 	{
 		super (p0);
-		if (getClass () == TemplatedItemViewHolder.class)
+		if (getClass () == TemplatedItemViewHolder.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.TemplatedItemViewHolder, Xamarin.Forms.Platform.Android", "Android.Views.View, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 	private java.util.ArrayList refList;

@@ -20,8 +20,9 @@ public class AccessibilityManagerCompat_TouchExplorationStateChangeListenerImple
 	public AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor ()
 	{
 		super ();
-		if (getClass () == AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor.class)
+		if (getClass () == AccessibilityManagerCompat_TouchExplorationStateChangeListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Core.View.Accessibility.AccessibilityManagerCompat+ITouchExplorationStateChangeListenerImplementor, Xamarin.AndroidX.Core", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

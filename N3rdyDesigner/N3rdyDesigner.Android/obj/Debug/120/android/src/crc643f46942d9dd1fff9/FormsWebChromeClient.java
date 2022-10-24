@@ -19,8 +19,9 @@ public class FormsWebChromeClient
 	public FormsWebChromeClient ()
 	{
 		super ();
-		if (getClass () == FormsWebChromeClient.class)
+		if (getClass () == FormsWebChromeClient.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.FormsWebChromeClient, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

@@ -21,8 +21,9 @@ public class RecyclerView_OnChildAttachStateChangeListenerImplementor
 	public RecyclerView_OnChildAttachStateChangeListenerImplementor ()
 	{
 		super ();
-		if (getClass () == RecyclerView_OnChildAttachStateChangeListenerImplementor.class)
+		if (getClass () == RecyclerView_OnChildAttachStateChangeListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.RecyclerView.Widget.RecyclerView+IOnChildAttachStateChangeListenerImplementor, Xamarin.AndroidX.RecyclerView", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

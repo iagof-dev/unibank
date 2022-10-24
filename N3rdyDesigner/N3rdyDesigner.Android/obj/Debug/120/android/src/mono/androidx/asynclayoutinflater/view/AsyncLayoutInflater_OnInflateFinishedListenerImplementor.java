@@ -20,8 +20,9 @@ public class AsyncLayoutInflater_OnInflateFinishedListenerImplementor
 	public AsyncLayoutInflater_OnInflateFinishedListenerImplementor ()
 	{
 		super ();
-		if (getClass () == AsyncLayoutInflater_OnInflateFinishedListenerImplementor.class)
+		if (getClass () == AsyncLayoutInflater_OnInflateFinishedListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.AsyncLayoutInflater.View.AsyncLayoutInflater+IOnInflateFinishedListenerImplementor, Xamarin.AndroidX.AsyncLayoutInflater", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

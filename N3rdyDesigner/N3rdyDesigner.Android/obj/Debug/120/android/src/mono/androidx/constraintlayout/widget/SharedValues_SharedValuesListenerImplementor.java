@@ -20,8 +20,9 @@ public class SharedValues_SharedValuesListenerImplementor
 	public SharedValues_SharedValuesListenerImplementor ()
 	{
 		super ();
-		if (getClass () == SharedValues_SharedValuesListenerImplementor.class)
+		if (getClass () == SharedValues_SharedValuesListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.ConstraintLayout.Widget.SharedValues+ISharedValuesListenerImplementor, Xamarin.AndroidX.ConstraintLayout", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

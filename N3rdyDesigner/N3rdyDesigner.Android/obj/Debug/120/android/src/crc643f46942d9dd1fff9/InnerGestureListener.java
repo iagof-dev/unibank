@@ -29,8 +29,9 @@ public class InnerGestureListener
 	public InnerGestureListener ()
 	{
 		super ();
-		if (getClass () == InnerGestureListener.class)
+		if (getClass () == InnerGestureListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.InnerGestureListener, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

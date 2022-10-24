@@ -25,15 +25,17 @@ public class TableViewModelRenderer
 	public TableViewModelRenderer ()
 	{
 		super ();
-		if (getClass () == TableViewModelRenderer.class)
+		if (getClass () == TableViewModelRenderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.TableViewModelRenderer, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public TableViewModelRenderer (android.content.Context p0)
 	{
 		super ();
-		if (getClass () == TableViewModelRenderer.class)
+		if (getClass () == TableViewModelRenderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.TableViewModelRenderer, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

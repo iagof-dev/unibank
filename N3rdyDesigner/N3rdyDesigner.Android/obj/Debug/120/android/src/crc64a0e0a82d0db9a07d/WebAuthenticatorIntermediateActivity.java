@@ -22,8 +22,9 @@ public class WebAuthenticatorIntermediateActivity
 	public WebAuthenticatorIntermediateActivity ()
 	{
 		super ();
-		if (getClass () == WebAuthenticatorIntermediateActivity.class)
+		if (getClass () == WebAuthenticatorIntermediateActivity.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Essentials.WebAuthenticatorIntermediateActivity, Xamarin.Essentials", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

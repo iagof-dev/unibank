@@ -19,8 +19,9 @@ public class CenterSnapHelper
 	public CenterSnapHelper ()
 	{
 		super ();
-		if (getClass () == CenterSnapHelper.class)
+		if (getClass () == CenterSnapHelper.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.CenterSnapHelper, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

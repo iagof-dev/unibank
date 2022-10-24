@@ -3,23 +3,28 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="N3rdyDesigner.Loading">
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="Center" Orientation="Horizontal" BackgroundColor="#FF8C32">
-            <StackLayout Margin="-40, 0, 50, 0" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="500">
+        <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal" BackgroundColor="#FF8C32">
+            <StackLayout Margin="-50, 0, 50, 0" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" WidthRequest="500">
                 <StackLayout HorizontalOptions="CenterAndExpand" WidthRequest="500">
-                    <StackLayout HorizontalOptions="Center">
+                    <StackLayout HorizontalOptions="CenterAndExpand">
                         <Image WidthRequest="90" Source="Logo" />
                         <Label Text="UniBank" HorizontalTextAlignment="Center" TextColor="#06113C" FontSize="50"/>
                     
                     <StackLayout>
-                    <Entry WidthRequest="350" HorizontalOptions="Center" x:Name="login_user" Placeholder="Email"></Entry>
-                        <Entry WidthRequest="350" HorizontalOptions="Center" x:Name="senha_user" IsPassword="True" Placeholder="Senha"></Entry>
+                            <Entry WidthRequest="350" TextColor="White"  HorizontalOptions="CenterAndExpand" x:Name="login_user" Placeholder="Email"></Entry>
+                            <Entry WidthRequest="350" TextColor="White" HorizontalOptions="CenterAndExpand" x:Name="senha_user" IsPassword="True" Placeholder="Senha"></Entry>
                     </StackLayout>
-                    <StackLayout>
+                    <StackLayout HorizontalOptions="CenterAndExpand">
                             <Button WidthRequest="150" x:Name="logar" BackgroundColor="#d66209" HorizontalOptions="Center" TextColor="White" Clicked="logar_Clicked_1" Text="Entrar"></Button>
+                            <StackLayout Orientation="Horizontal">                           
+                                <Label TextDecorations="None" Text="Não possui cadastro?" />
+                                <Label TextDecorations="Underline" TextColor="Blue" Text="Cadastre-se aqui!" />
+                            </StackLayout>
+
+                        </StackLayout>
                     </StackLayout>
-                    <ActivityIndicator IsRunning="True" x:Name="loading" IsVisible="false" />
+                    
                 </StackLayout>
-            </StackLayout>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

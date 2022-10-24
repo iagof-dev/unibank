@@ -23,8 +23,9 @@ public class DrawerLayout_DrawerListenerImplementor
 	public DrawerLayout_DrawerListenerImplementor ()
 	{
 		super ();
-		if (getClass () == DrawerLayout_DrawerListenerImplementor.class)
+		if (getClass () == DrawerLayout_DrawerListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.DrawerLayout.Widget.DrawerLayout+IDrawerListenerImplementor, Xamarin.AndroidX.DrawerLayout", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

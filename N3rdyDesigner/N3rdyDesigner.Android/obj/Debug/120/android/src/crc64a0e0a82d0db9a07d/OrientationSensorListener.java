@@ -21,8 +21,9 @@ public class OrientationSensorListener
 	public OrientationSensorListener ()
 	{
 		super ();
-		if (getClass () == OrientationSensorListener.class)
+		if (getClass () == OrientationSensorListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Essentials.OrientationSensorListener, Xamarin.Essentials", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

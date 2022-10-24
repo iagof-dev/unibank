@@ -18,8 +18,9 @@ public class TextViewHolder
 	public TextViewHolder (android.view.View p0)
 	{
 		super (p0);
-		if (getClass () == TextViewHolder.class)
+		if (getClass () == TextViewHolder.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.TextViewHolder, Xamarin.Forms.Platform.Android", "Android.Views.View, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 	private java.util.ArrayList refList;

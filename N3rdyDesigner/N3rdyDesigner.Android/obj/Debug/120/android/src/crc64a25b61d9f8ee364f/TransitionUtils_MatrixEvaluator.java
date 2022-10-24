@@ -20,8 +20,9 @@ public class TransitionUtils_MatrixEvaluator
 	public TransitionUtils_MatrixEvaluator ()
 	{
 		super ();
-		if (getClass () == TransitionUtils_MatrixEvaluator.class)
+		if (getClass () == TransitionUtils_MatrixEvaluator.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Transitions.TransitionUtils+MatrixEvaluator, Xamarin.AndroidX.Transition", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

@@ -20,8 +20,9 @@ public class EditTextPreference_OnBindEditTextListenerImplementor
 	public EditTextPreference_OnBindEditTextListenerImplementor ()
 	{
 		super ();
-		if (getClass () == EditTextPreference_OnBindEditTextListenerImplementor.class)
+		if (getClass () == EditTextPreference_OnBindEditTextListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Preference.EditTextPreference+IOnBindEditTextListenerImplementor, Xamarin.AndroidX.Preference", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

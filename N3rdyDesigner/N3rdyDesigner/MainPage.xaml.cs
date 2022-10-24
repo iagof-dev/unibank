@@ -15,13 +15,17 @@ namespace N3rdyDesigner
     {
         bool ver_saldo = false;
 
-        string db_dados = "server=" + Properties.Resources.db_server
-            + ";uid=" + Properties.Resources.db_user + ";" + "pwd=" + Properties.Resources.db_pass + ";database=" +
-            Properties.Resources.db_name;
 
-        string db_table = Properties.Resources.db_tabela;
+        public static string db_server = db.db_server;
+        public static string db_user = db.db_user;
+        public static string db_pass = db.db_pass;
+        public static string db_table = db.db_table;
+        public static string db_database = db.db_database;
 
-        string db_database = Properties.Resources.db_name;
+
+
+        public static string db_dados = "server=" + db_server + ";uid=" + db_user + ";" + "pwd=" + db_pass + ";database=" + db_database;
+
 
         bool sair = false;
 
@@ -73,7 +77,7 @@ namespace N3rdyDesigner
             }
             else
             {
-                user_profile.Source = ImageSource.FromStream(() => new MemoryStream(db.pass_foto));
+                user_profile.Source = "https://cdn.discordapp.com/attachments/889233196091342920/1034143592974913636/icon.png";
             }
 
             
@@ -90,7 +94,11 @@ namespace N3rdyDesigner
         {
             if (ver_saldo == false) {
                 //Mostrando Saldo
-                user_saldo.Text = "R$" + db.pass_saldo;
+                string set_saldo = "R$" + db.pass_saldo;
+                set_saldo = set_saldo.Replace('.', ',');
+
+                user_saldo.Text = set_saldo;
+
                 user_versaldo.Source = "saldo";
                 ver_saldo = true;
             }

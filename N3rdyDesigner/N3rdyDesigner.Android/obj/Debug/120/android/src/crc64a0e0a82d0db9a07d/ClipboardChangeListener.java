@@ -20,8 +20,9 @@ public class ClipboardChangeListener
 	public ClipboardChangeListener ()
 	{
 		super ();
-		if (getClass () == ClipboardChangeListener.class)
+		if (getClass () == ClipboardChangeListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Essentials.ClipboardChangeListener, Xamarin.Essentials", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

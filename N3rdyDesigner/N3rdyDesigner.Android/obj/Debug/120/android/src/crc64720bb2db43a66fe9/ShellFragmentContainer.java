@@ -21,16 +21,18 @@ public class ShellFragmentContainer
 	public ShellFragmentContainer ()
 	{
 		super ();
-		if (getClass () == ShellFragmentContainer.class)
+		if (getClass () == ShellFragmentContainer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.AppCompat.ShellFragmentContainer, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 
 	public ShellFragmentContainer (int p0)
 	{
 		super (p0);
-		if (getClass () == ShellFragmentContainer.class)
+		if (getClass () == ShellFragmentContainer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.AppCompat.ShellFragmentContainer, Xamarin.Forms.Platform.Android", "System.Int32, mscorlib", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

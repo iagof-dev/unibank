@@ -20,8 +20,9 @@ public class SharedElementCallback_OnSharedElementsReadyListenerImplementor
 	public SharedElementCallback_OnSharedElementsReadyListenerImplementor ()
 	{
 		super ();
-		if (getClass () == SharedElementCallback_OnSharedElementsReadyListenerImplementor.class)
+		if (getClass () == SharedElementCallback_OnSharedElementsReadyListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Core.App.SharedElementCallback+IOnSharedElementsReadyListenerImplementor, Xamarin.AndroidX.Core", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

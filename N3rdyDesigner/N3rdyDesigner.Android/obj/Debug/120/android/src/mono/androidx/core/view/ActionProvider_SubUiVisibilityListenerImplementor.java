@@ -20,8 +20,9 @@ public class ActionProvider_SubUiVisibilityListenerImplementor
 	public ActionProvider_SubUiVisibilityListenerImplementor ()
 	{
 		super ();
-		if (getClass () == ActionProvider_SubUiVisibilityListenerImplementor.class)
+		if (getClass () == ActionProvider_SubUiVisibilityListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Core.View.ActionProvider+ISubUiVisibilityListenerImplementor, Xamarin.AndroidX.Core", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

@@ -20,8 +20,9 @@ public class FormattedStringExtensions_FontSpan
 	public FormattedStringExtensions_FontSpan ()
 	{
 		super ();
-		if (getClass () == FormattedStringExtensions_FontSpan.class)
+		if (getClass () == FormattedStringExtensions_FontSpan.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.FormattedStringExtensions+FontSpan, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

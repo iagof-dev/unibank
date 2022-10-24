@@ -19,8 +19,9 @@ public abstract class NongreedySnapHelper
 	public NongreedySnapHelper ()
 	{
 		super ();
-		if (getClass () == NongreedySnapHelper.class)
+		if (getClass () == NongreedySnapHelper.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.NongreedySnapHelper, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

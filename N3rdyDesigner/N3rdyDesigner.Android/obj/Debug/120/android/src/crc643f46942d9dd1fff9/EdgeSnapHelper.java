@@ -18,8 +18,9 @@ public abstract class EdgeSnapHelper
 	public EdgeSnapHelper ()
 	{
 		super ();
-		if (getClass () == EdgeSnapHelper.class)
+		if (getClass () == EdgeSnapHelper.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.EdgeSnapHelper, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	private java.util.ArrayList refList;

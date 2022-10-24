@@ -20,8 +20,9 @@ public class ButtonRenderer_ButtonClickListener
 	public ButtonRenderer_ButtonClickListener ()
 	{
 		super ();
-		if (getClass () == ButtonRenderer_ButtonClickListener.class)
+		if (getClass () == ButtonRenderer_ButtonClickListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ButtonRenderer+ButtonClickListener, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

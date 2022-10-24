@@ -19,8 +19,9 @@ public class ShellToolbarTracker_FlyoutIconDrawerDrawable
 	public ShellToolbarTracker_FlyoutIconDrawerDrawable (android.content.Context p0)
 	{
 		super (p0);
-		if (getClass () == ShellToolbarTracker_FlyoutIconDrawerDrawable.class)
+		if (getClass () == ShellToolbarTracker_FlyoutIconDrawerDrawable.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellToolbarTracker+FlyoutIconDrawerDrawable, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

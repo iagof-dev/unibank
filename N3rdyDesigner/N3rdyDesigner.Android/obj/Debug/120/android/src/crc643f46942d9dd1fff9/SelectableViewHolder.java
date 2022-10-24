@@ -20,8 +20,9 @@ public abstract class SelectableViewHolder
 	public SelectableViewHolder (android.view.View p0)
 	{
 		super (p0);
-		if (getClass () == SelectableViewHolder.class)
+		if (getClass () == SelectableViewHolder.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.SelectableViewHolder, Xamarin.Forms.Platform.Android", "Android.Views.View, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

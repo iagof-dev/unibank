@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projetos\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.Android\\N3rdyDesigner.Android.csproj": {}
+    "C:\\Users\\N3rdy\\Desktop\\unibank-main\\N3rdyDesigner\\N3rdyDesigner.Android\\N3rdyDesigner.Android.csproj": {}
   },
   "projects": {
-    "D:\\projetos\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.Android\\N3rdyDesigner.Android.csproj": {
+    "C:\\Users\\N3rdy\\Desktop\\unibank-main\\N3rdyDesigner\\N3rdyDesigner.Android\\N3rdyDesigner.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projetos\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.Android\\N3rdyDesigner.Android.csproj",
+        "projectUniqueName": "C:\\Users\\N3rdy\\Desktop\\unibank-main\\N3rdyDesigner\\N3rdyDesigner.Android\\N3rdyDesigner.Android.csproj",
         "projectName": "UniBank",
-        "projectPath": "D:\\projetos\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.Android\\N3rdyDesigner.Android.csproj",
+        "projectPath": "C:\\Users\\N3rdy\\Desktop\\unibank-main\\N3rdyDesigner\\N3rdyDesigner.Android\\N3rdyDesigner.Android.csproj",
         "packagesPath": "C:\\Users\\N3rdy\\.nuget\\packages\\",
-        "outputPath": "D:\\projetos\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.Android\\obj\\",
+        "outputPath": "C:\\Users\\N3rdy\\Desktop\\unibank-main\\N3rdyDesigner\\N3rdyDesigner.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid12.0": {
             "projectReferences": {
-              "D:\\projetos\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.csproj": {
-                "projectPath": "D:\\projetos\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.csproj"
+              "C:\\Users\\N3rdy\\Desktop\\unibank-main\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.csproj": {
+                "projectPath": "C:\\Users\\N3rdy\\Desktop\\unibank-main\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "D:\\projetos\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.csproj": {
+    "C:\\Users\\N3rdy\\Desktop\\unibank-main\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projetos\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.csproj",
+        "projectUniqueName": "C:\\Users\\N3rdy\\Desktop\\unibank-main\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.csproj",
         "projectName": "N3rdyDesigner",
-        "projectPath": "D:\\projetos\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.csproj",
+        "projectPath": "C:\\Users\\N3rdy\\Desktop\\unibank-main\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner.csproj",
         "packagesPath": "C:\\Users\\N3rdy\\.nuget\\packages\\",
-        "outputPath": "D:\\projetos\\N3rdyDesigner\\N3rdyDesigner\\N3rdyDesigner\\obj\\",
+        "outputPath": "C:\\Users\\N3rdy\\Desktop\\unibank-main\\N3rdyDesigner\\N3rdyDesigner\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,6 +76,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -119,11 +120,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

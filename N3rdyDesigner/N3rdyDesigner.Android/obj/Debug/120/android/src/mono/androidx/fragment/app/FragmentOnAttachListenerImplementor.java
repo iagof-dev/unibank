@@ -20,8 +20,9 @@ public class FragmentOnAttachListenerImplementor
 	public FragmentOnAttachListenerImplementor ()
 	{
 		super ();
-		if (getClass () == FragmentOnAttachListenerImplementor.class)
+		if (getClass () == FragmentOnAttachListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Fragment.App.IFragmentOnAttachListenerImplementor, Xamarin.AndroidX.Fragment", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

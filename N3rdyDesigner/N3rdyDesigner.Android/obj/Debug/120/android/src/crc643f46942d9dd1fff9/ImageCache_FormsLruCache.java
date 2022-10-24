@@ -19,8 +19,9 @@ public class ImageCache_FormsLruCache
 	public ImageCache_FormsLruCache (int p0)
 	{
 		super (p0);
-		if (getClass () == ImageCache_FormsLruCache.class)
+		if (getClass () == ImageCache_FormsLruCache.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ImageCache+FormsLruCache, Xamarin.Forms.Platform.Android", "System.Int32, mscorlib", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

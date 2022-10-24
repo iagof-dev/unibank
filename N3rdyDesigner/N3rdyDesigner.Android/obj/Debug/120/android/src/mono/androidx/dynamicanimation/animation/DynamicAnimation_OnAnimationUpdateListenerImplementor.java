@@ -20,8 +20,9 @@ public class DynamicAnimation_OnAnimationUpdateListenerImplementor
 	public DynamicAnimation_OnAnimationUpdateListenerImplementor ()
 	{
 		super ();
-		if (getClass () == DynamicAnimation_OnAnimationUpdateListenerImplementor.class)
+		if (getClass () == DynamicAnimation_OnAnimationUpdateListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.DynamicAnimation.DynamicAnimation+IOnAnimationUpdateListenerImplementor, Xamarin.AndroidX.DynamicAnimation", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

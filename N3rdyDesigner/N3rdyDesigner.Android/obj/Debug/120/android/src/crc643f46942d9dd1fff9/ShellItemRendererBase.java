@@ -19,16 +19,18 @@ public abstract class ShellItemRendererBase
 	public ShellItemRendererBase ()
 	{
 		super ();
-		if (getClass () == ShellItemRendererBase.class)
+		if (getClass () == ShellItemRendererBase.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellItemRendererBase, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 
 	public ShellItemRendererBase (int p0)
 	{
 		super (p0);
-		if (getClass () == ShellItemRendererBase.class)
+		if (getClass () == ShellItemRendererBase.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellItemRendererBase, Xamarin.Forms.Platform.Android", "System.Int32, mscorlib", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

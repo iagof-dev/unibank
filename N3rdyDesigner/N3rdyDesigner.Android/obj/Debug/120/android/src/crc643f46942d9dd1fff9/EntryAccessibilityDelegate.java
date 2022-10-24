@@ -19,16 +19,18 @@ public class EntryAccessibilityDelegate
 	public EntryAccessibilityDelegate ()
 	{
 		super ();
-		if (getClass () == EntryAccessibilityDelegate.class)
+		if (getClass () == EntryAccessibilityDelegate.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.EntryAccessibilityDelegate, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 
 	public EntryAccessibilityDelegate (android.view.View.AccessibilityDelegate p0)
 	{
 		super (p0);
-		if (getClass () == EntryAccessibilityDelegate.class)
+		if (getClass () == EntryAccessibilityDelegate.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.EntryAccessibilityDelegate, Xamarin.Forms.Platform.Android", "Android.Views.View+AccessibilityDelegate, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

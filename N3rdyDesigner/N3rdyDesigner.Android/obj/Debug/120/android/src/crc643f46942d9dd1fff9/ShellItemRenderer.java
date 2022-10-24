@@ -22,16 +22,18 @@ public class ShellItemRenderer
 	public ShellItemRenderer ()
 	{
 		super ();
-		if (getClass () == ShellItemRenderer.class)
+		if (getClass () == ShellItemRenderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellItemRenderer, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 
 	public ShellItemRenderer (int p0)
 	{
 		super (p0);
-		if (getClass () == ShellItemRenderer.class)
+		if (getClass () == ShellItemRenderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellItemRenderer, Xamarin.Forms.Platform.Android", "System.Int32, mscorlib", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

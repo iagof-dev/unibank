@@ -20,8 +20,9 @@ public class StepperRendererManager_StepperListener
 	public StepperRendererManager_StepperListener ()
 	{
 		super ();
-		if (getClass () == StepperRendererManager_StepperListener.class)
+		if (getClass () == StepperRendererManager_StepperListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.StepperRendererManager+StepperListener, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

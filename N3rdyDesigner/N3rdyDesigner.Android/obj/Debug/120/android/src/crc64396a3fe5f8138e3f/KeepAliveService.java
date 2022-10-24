@@ -19,8 +19,9 @@ public class KeepAliveService
 	public KeepAliveService ()
 	{
 		super ();
-		if (getClass () == KeepAliveService.class)
+		if (getClass () == KeepAliveService.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Browser.CustomTabs.KeepAliveService, Xamarin.AndroidX.Browser", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

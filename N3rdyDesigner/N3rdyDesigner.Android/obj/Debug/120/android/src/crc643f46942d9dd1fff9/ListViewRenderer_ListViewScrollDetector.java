@@ -21,15 +21,17 @@ public class ListViewRenderer_ListViewScrollDetector
 	public ListViewRenderer_ListViewScrollDetector ()
 	{
 		super ();
-		if (getClass () == ListViewRenderer_ListViewScrollDetector.class)
+		if (getClass () == ListViewRenderer_ListViewScrollDetector.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ListViewRenderer+ListViewScrollDetector, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public ListViewRenderer_ListViewScrollDetector (crc643f46942d9dd1fff9.ListViewRenderer p0)
 	{
 		super ();
-		if (getClass () == ListViewRenderer_ListViewScrollDetector.class)
+		if (getClass () == ListViewRenderer_ListViewScrollDetector.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ListViewRenderer+ListViewScrollDetector, Xamarin.Forms.Platform.Android", "Xamarin.Forms.Platform.Android.ListViewRenderer, Xamarin.Forms.Platform.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

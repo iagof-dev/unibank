@@ -19,8 +19,9 @@ public class PowerSaveModeBroadcastReceiver
 	public PowerSaveModeBroadcastReceiver ()
 	{
 		super ();
-		if (getClass () == PowerSaveModeBroadcastReceiver.class)
+		if (getClass () == PowerSaveModeBroadcastReceiver.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.PowerSaveModeBroadcastReceiver, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

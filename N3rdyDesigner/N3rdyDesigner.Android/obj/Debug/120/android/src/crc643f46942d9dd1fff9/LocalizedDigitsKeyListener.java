@@ -21,15 +21,17 @@ public class LocalizedDigitsKeyListener
 	public LocalizedDigitsKeyListener ()
 	{
 		super ();
-		if (getClass () == LocalizedDigitsKeyListener.class)
+		if (getClass () == LocalizedDigitsKeyListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.LocalizedDigitsKeyListener, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public LocalizedDigitsKeyListener (int p0, char p1)
 	{
 		super ();
-		if (getClass () == LocalizedDigitsKeyListener.class)
+		if (getClass () == LocalizedDigitsKeyListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.LocalizedDigitsKeyListener, Xamarin.Forms.Platform.Android", "Android.Text.InputTypes, Mono.Android:System.Char, mscorlib", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 

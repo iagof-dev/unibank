@@ -21,8 +21,9 @@ public class PositionalSmoothScroller
 	public PositionalSmoothScroller (android.content.Context p0)
 	{
 		super (p0);
-		if (getClass () == PositionalSmoothScroller.class)
+		if (getClass () == PositionalSmoothScroller.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.PositionalSmoothScroller, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

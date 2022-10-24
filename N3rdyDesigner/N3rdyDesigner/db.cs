@@ -42,11 +42,19 @@ namespace N3rdyDesigner
         ///
         /// Dados do Banco de dados (Flexivel)
         ///
-        public static string db_dados = "server=" + Properties.Resources.db_server + ";uid=" + Properties.Resources.db_user + ";" + "pwd=" + Properties.Resources.db_pass + ";database=" + Properties.Resources.db_name;
 
-        public static string db_table = Properties.Resources.db_tabela;
 
-        public static string db_database = Properties.Resources.db_name;
+        public static string db_server = "db.n3rdydzn.software";
+        public static string db_user = "";
+        public static string db_pass = "";
+        public static string db_table = "registro";
+        public static string db_database = "nrdydesi_unibank";
+        
+
+        
+        public static string db_dados = "server=" + db_server + ";uid=" + db_user + ";" + "pwd=" + db_pass + ";database=" + db_database;
+
+
 
         ///
         /// Informações do Usuário no Banco de Dados
@@ -58,7 +66,7 @@ namespace N3rdyDesigner
         public static string pass_sempfp = string.Empty;
         public static double pass_saldo = 0;
         public static int pass_id = 0;
-        public static byte[] pass_foto = new byte[0];
+        public static byte[] pass_foto = new byte[1];
         
 
         public static bool valido = false;

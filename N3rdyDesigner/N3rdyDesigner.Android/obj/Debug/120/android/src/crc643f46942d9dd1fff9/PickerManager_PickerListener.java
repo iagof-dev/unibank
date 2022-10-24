@@ -20,8 +20,9 @@ public class PickerManager_PickerListener
 	public PickerManager_PickerListener ()
 	{
 		super ();
-		if (getClass () == PickerManager_PickerListener.class)
+		if (getClass () == PickerManager_PickerListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.PickerManager+PickerListener, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

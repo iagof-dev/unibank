@@ -19,8 +19,9 @@ public class ShellSearchView_ClipDrawableWrapper
 	public ShellSearchView_ClipDrawableWrapper (android.graphics.drawable.Drawable p0)
 	{
 		super (p0);
-		if (getClass () == ShellSearchView_ClipDrawableWrapper.class)
+		if (getClass () == ShellSearchView_ClipDrawableWrapper.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellSearchView+ClipDrawableWrapper, Xamarin.Forms.Platform.Android", "Android.Graphics.Drawables.Drawable, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

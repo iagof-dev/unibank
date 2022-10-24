@@ -36,8 +36,10 @@ namespace N3rdyDesigner
             }
             else
             {
-                user_pfpmenu.Source = ImageSource.FromStream(() => new MemoryStream(db.pass_foto));
-                user_pfp.Source = ImageSource.FromStream(() => new MemoryStream(db.pass_foto));
+                user_pfpmenu.Source = "https://cdn.discordapp.com/attachments/889233196091342920/1034143592974913636/icon.png";
+                user_pfp.Source = "https://cdn.discordapp.com/attachments/889233196091342920/1034143592974913636/icon.png";
+                //user_pfpmenu.Source = ImageSource.FromStream(() => new MemoryStream(db.pass_foto));
+                //user_pfp.Source = ImageSource.FromStream(() => new MemoryStream(db.pass_foto));
             }
 
             user_id.Text = user_id.Text + db.pass_id;

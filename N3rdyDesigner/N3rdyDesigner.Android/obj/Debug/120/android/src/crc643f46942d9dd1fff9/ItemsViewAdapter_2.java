@@ -23,8 +23,9 @@ public class ItemsViewAdapter_2
 	public ItemsViewAdapter_2 ()
 	{
 		super ();
-		if (getClass () == ItemsViewAdapter_2.class)
+		if (getClass () == ItemsViewAdapter_2.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ItemsViewAdapter`2, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

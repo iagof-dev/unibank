@@ -24,8 +24,9 @@ public class BorderDrawable
 	public BorderDrawable ()
 	{
 		super ();
-		if (getClass () == BorderDrawable.class)
+		if (getClass () == BorderDrawable.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.BorderDrawable, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

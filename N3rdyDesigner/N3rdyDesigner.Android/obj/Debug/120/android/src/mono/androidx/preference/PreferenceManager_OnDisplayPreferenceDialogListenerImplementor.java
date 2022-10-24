@@ -20,8 +20,9 @@ public class PreferenceManager_OnDisplayPreferenceDialogListenerImplementor
 	public PreferenceManager_OnDisplayPreferenceDialogListenerImplementor ()
 	{
 		super ();
-		if (getClass () == PreferenceManager_OnDisplayPreferenceDialogListenerImplementor.class)
+		if (getClass () == PreferenceManager_OnDisplayPreferenceDialogListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Preference.PreferenceManager+IOnDisplayPreferenceDialogListenerImplementor, Xamarin.AndroidX.Preference", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

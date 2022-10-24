@@ -20,8 +20,9 @@ public class PreferenceManager_OnPreferenceTreeClickListenerImplementor
 	public PreferenceManager_OnPreferenceTreeClickListenerImplementor ()
 	{
 		super ();
-		if (getClass () == PreferenceManager_OnPreferenceTreeClickListenerImplementor.class)
+		if (getClass () == PreferenceManager_OnPreferenceTreeClickListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("AndroidX.Preference.PreferenceManager+IOnPreferenceTreeClickListenerImplementor, Xamarin.AndroidX.Preference", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

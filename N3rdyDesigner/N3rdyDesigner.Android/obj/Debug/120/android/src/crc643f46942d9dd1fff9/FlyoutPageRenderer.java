@@ -26,24 +26,27 @@ public class FlyoutPageRenderer
 	public FlyoutPageRenderer (android.content.Context p0)
 	{
 		super (p0);
-		if (getClass () == FlyoutPageRenderer.class)
+		if (getClass () == FlyoutPageRenderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.FlyoutPageRenderer, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 
 	public FlyoutPageRenderer (android.content.Context p0, android.util.AttributeSet p1)
 	{
 		super (p0, p1);
-		if (getClass () == FlyoutPageRenderer.class)
+		if (getClass () == FlyoutPageRenderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.FlyoutPageRenderer, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 
 	public FlyoutPageRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
 		super (p0, p1, p2);
-		if (getClass () == FlyoutPageRenderer.class)
+		if (getClass () == FlyoutPageRenderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.FlyoutPageRenderer, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+		}
 	}
 
 

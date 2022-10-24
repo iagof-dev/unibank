@@ -18,8 +18,9 @@ public class ShellFlyoutRecyclerAdapter_ElementViewHolder
 	public ShellFlyoutRecyclerAdapter_ElementViewHolder (android.view.View p0)
 	{
 		super (p0);
-		if (getClass () == ShellFlyoutRecyclerAdapter_ElementViewHolder.class)
+		if (getClass () == ShellFlyoutRecyclerAdapter_ElementViewHolder.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellFlyoutRecyclerAdapter+ElementViewHolder, Xamarin.Forms.Platform.Android", "Android.Views.View, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 	private java.util.ArrayList refList;

@@ -20,8 +20,9 @@ public class TextInputLayout_OnEndIconChangedListenerImplementor
 	public TextInputLayout_OnEndIconChangedListenerImplementor ()
 	{
 		super ();
-		if (getClass () == TextInputLayout_OnEndIconChangedListenerImplementor.class)
+		if (getClass () == TextInputLayout_OnEndIconChangedListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Google.Android.Material.TextField.TextInputLayout+IOnEndIconChangedListenerImplementor, Xamarin.Google.Android.Material", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

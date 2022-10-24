@@ -25,8 +25,9 @@ public class ViewCellRenderer_ViewCellContainer_TapGestureListener
 	public ViewCellRenderer_ViewCellContainer_TapGestureListener ()
 	{
 		super ();
-		if (getClass () == ViewCellRenderer_ViewCellContainer_TapGestureListener.class)
+		if (getClass () == ViewCellRenderer_ViewCellContainer_TapGestureListener.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ViewCellRenderer+ViewCellContainer+TapGestureListener, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

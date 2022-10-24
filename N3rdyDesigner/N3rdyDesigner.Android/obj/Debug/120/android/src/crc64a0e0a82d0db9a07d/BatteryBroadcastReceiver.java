@@ -19,8 +19,9 @@ public class BatteryBroadcastReceiver
 	public BatteryBroadcastReceiver ()
 	{
 		super ();
-		if (getClass () == BatteryBroadcastReceiver.class)
+		if (getClass () == BatteryBroadcastReceiver.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Essentials.BatteryBroadcastReceiver, Xamarin.Essentials", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

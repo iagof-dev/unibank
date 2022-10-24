@@ -20,16 +20,18 @@ public class FormsViewPager
 	public FormsViewPager (android.content.Context p0)
 	{
 		super (p0);
-		if (getClass () == FormsViewPager.class)
+		if (getClass () == FormsViewPager.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.AppCompat.FormsViewPager, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 
 	public FormsViewPager (android.content.Context p0, android.util.AttributeSet p1)
 	{
 		super (p0, p1);
-		if (getClass () == FormsViewPager.class)
+		if (getClass () == FormsViewPager.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.AppCompat.FormsViewPager, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 

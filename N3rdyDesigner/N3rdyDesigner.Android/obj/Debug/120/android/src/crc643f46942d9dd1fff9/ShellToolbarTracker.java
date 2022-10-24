@@ -20,8 +20,9 @@ public class ShellToolbarTracker
 	public ShellToolbarTracker ()
 	{
 		super ();
-		if (getClass () == ShellToolbarTracker.class)
+		if (getClass () == ShellToolbarTracker.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellToolbarTracker, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

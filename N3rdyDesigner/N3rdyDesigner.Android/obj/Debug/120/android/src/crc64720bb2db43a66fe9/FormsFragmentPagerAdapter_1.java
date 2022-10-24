@@ -24,16 +24,18 @@ public class FormsFragmentPagerAdapter_1
 	public FormsFragmentPagerAdapter_1 (androidx.fragment.app.FragmentManager p0)
 	{
 		super (p0);
-		if (getClass () == FormsFragmentPagerAdapter_1.class)
+		if (getClass () == FormsFragmentPagerAdapter_1.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1, Xamarin.Forms.Platform.Android", "AndroidX.Fragment.App.FragmentManager, Xamarin.AndroidX.Fragment", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 
 	public FormsFragmentPagerAdapter_1 (androidx.fragment.app.FragmentManager p0, int p1)
 	{
 		super (p0, p1);
-		if (getClass () == FormsFragmentPagerAdapter_1.class)
+		if (getClass () == FormsFragmentPagerAdapter_1.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1, Xamarin.Forms.Platform.Android", "AndroidX.Fragment.App.FragmentManager, Xamarin.AndroidX.Fragment:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1 });
+		}
 	}
 
 

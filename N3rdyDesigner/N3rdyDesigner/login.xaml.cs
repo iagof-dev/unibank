@@ -32,7 +32,6 @@ namespace N3rdyDesigner
             }
             else 
             { 
-                loading.IsVisible = true;
                 db.login_get(login_user.Text, senha_user.Text);
 
                 if (db.valido == true)
